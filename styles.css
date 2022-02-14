@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+#my-canvas {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon {
+    font-size: 48px;
+    width: 96px;
+    display: inline-block;
+}
+
+.icon.selected {
+    color: purple;
+}
+
+.nav {
+    height: 100px;
+    background-color: lavender;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 16px;
+}
